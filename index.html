@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Techno Hardware Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>💻 Techno Computer Store</h1>
+    <nav>
+      <a href="#">Dashboard</a>
+      <a href="#">Products</a>
+      <a href="#">Orders</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="dashboard">
+    <div class="stat-card">
+      <h2>Online Orders</h2>
+      <p>35</p>
+    </div>
+    <div class="stat-card">
+      <h2>Active Users</h2>
+      <p>12</p>
+    </div>
+    <div class="stat-card">
+      <h2>Server Uptime</h2>
+      <p>99.99%</p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="product-card">
+      <img src="https://product.hstatic.net/200000320233/product/c121_3789263228594ca5850e0721df9f1328_1024x1024.jpg" alt="CPU">
+      <h3>Intel i9-14900K</h3>
+      <p>฿18,900</p>
+      <button onclick="addToCart('Intel i9-14900K')">ใส่ตะกร้า</button>
+    </div>
+    <div class="product-card">
+      <img src="https://www.thmsms.com/cdn/shop/files/20241017093505.jpg" alt="GPU">
+      <h3>RTX 4080 SUPER</h3>
+      <p>฿49,500</p>
+      <button onclick="addToCart('RTX 4080 SUPER')">ใส่ตะกร้า</button>
+    </div>
+    <div class="product-card">
+      <img src="https://www.jib.co.th/img_master/product/original/2024092309162970761_1.jpg" alt="RAM">
+      <h3>DDR5 32GB 6000MHz</h3>
+      <p>฿5,200</p>
+      <button onclick="addToCart('DDR5 32GB 6000MHz')">ใส่ตะกร้า</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Techno Hardware Store | by DevOps Team</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
